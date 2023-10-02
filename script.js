@@ -26,7 +26,7 @@ toggle.addEventListener("click", () => {
 modal.classList.remove("hidden");
 overlay.classList.remove("hidden");
 
-let seconds = 20; // Initial number of seconds
+let seconds = 10; // Initial number of seconds
 
 function updateTimer() {
   countdownTimer.innerHTML = seconds;
